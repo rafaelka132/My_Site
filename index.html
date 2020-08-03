@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="img/my_icon.png" type="image/x-icon"> 
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Calulator</title>
+  </head>
+  <body>
+    <section id="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Рассчет стоимости онлайн</h2>
+          </div>
+          <div class="col-md-8">
+            <div class="calc">
+              
+              <div class="dws" name="edition" id="tree_edition">
+                <p class="name">порода дерева</p>
+                <input type="radio" id="isexpanded" name="name"/>
+                <label for="isexpanded" id="expand-btn" class="qwer">
+                  Дуб
+                </label>
+                <input type="radio" id="isexpanded1" name="name" />
+                <label for="isexpanded1" id="expand-btn1" class="qwer">
+                  Ясень
+                </label>
+                <input type="radio" id="isexpanded2" name="name" />
+                <label for="isexpanded2" id="expand-btn2" class="qwer">
+                  Листвинница
+                </label>
+                <input type="radio" id="isexpanded3" name="name" />
+                <label for="isexpanded3" id="expand-btn3" class="qwer">
+                  Орех
+                </label>
+                <input type="radio" id="isexpanded4" name="name" />
+                <label for="isexpanded4" id="expand-btn4" class="qwer">
+                  Тик
+                </label>
+                <input type="radio" id="isexpanded5" name="name" />
+                <label for="isexpanded5" id="expand-btn5" class="qwer">
+                  Карагач
+                </label>
+                <input type="radio" id="isexpanded6" name="name" />
+                <label for="isexpanded6" id="expand-btn6" class="qwer">
+                  Ироко
+                </label>
+                <input type="radio" id="isexpanded7" name="name" />
+                <label for="isexpanded7" id="expand-btn7" class="qwer">
+                  Американский дуб
+                </label>
+                <input type="radio" id="isexpanded8" name="name" />
+                <label for="isexpanded8" id="expand-btn8" class="qwer">
+                  Мербау
+                </label>
+
+              </div>
+
+              <hr>
+
+              <div class="dws2">
+                <p class="name">Форма</p>
+                <a href="#">Квадратные и прямоугольные ✓</a>
+                <p class="name2">Толщина по умолчанию - 4 см. Края по умолчанию ровные. Можем сделать любую толщину, ровные или "живые" края (имитация слэба).</p>
+              </div> 
+
+              <hr>
+
+              <div class="tol">
+                <p class="name">толщина</p>
+                <label><input type="radio" name="t">20мм</label>
+                <label><input type="radio" name="t">40мм</label>
+              </div>
+
+              <div class="for_razmer">
+                <div class="razmer">
+                  <p class="name">Размеры,мм</p>
+                  <label class="bukva">A<input type="number" min="0" name="raz" id="20m" value="600" checked="200"></label>
+                  <label class="bukva">Б<input type="number" min="0" name="raz" id="40m" value="3000" checked="300"></label>
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="for_pokr">
+                  <p class="name">покрытие</p>
+                  <input type="radio" id="bpokr1" name="name"/>
+                  <label for="bpokr1" id="lb-btn1" class="qwer">
+                    Масло
+                  </label>
+                  <input type="radio" id="bpokr2" name="name"/>
+                  <label for=bpokr2 id="lb-btn2" class="qwer">
+                    Лак
+                  </label>
+              </div>
+
+              <div class="material">
+                <p class="name">материалы</p>
+                <input type="radio" id="mat1" name="material"/>
+                <label for="mat1" id="lb-mat1" class="qwer">
+                  Сращенные щиты
+                </label>
+                <input type="radio" id="mat2" name="material" />
+                <label for="mat2" id="lb-mat2" class="qwer">
+                  Цельноламельные щиты
+                </label>
+                <input type="radio" id="mat3" name="material" />
+                <label for="mat3" id="lb-mat3" class="qwer">
+                  Широкие доски
+                </label>
+                <input type="radio" id="mat4" name="material" />
+                <label for="mat4" id="lb-mat4" class="qwer">
+                  Слэбы
+                </label>
+              </div>
+
+              <hr>
+
+              <div class="colors">
+                <p class="name">цветовые палитры</p>
+                <a href="#">01. Натуральный (прозрачный)✓</a>
+              </div>
+
+              <div class="img">
+                <img src="img/Дуб.jpg" width="250" height="150">
+              </div>
+
+              <hr>
+
+              <div class="dop_uslug">
+                <label>
+                  <input value="2500" type="checkbox" class="checkbox" id="dop_uslug1">
+                  <span class="fordop">Доставка по Санкт-Петербургу или Москве</span>
+                </label>
+                <br>
+                <label>
+                  <input value="2000" type="checkbox" class="checkbox" id="dop_uslug2">
+                  <span class="fordop">Требуется монтаж</span>
+                </label>
+              </div>
+
+
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+
+              <div class="price">
+                <span >Итого:</span><span id="final_price">0</span>
+                <span>₽</span>
+              </div>
+
+              <div class="butzac">
+                <a href="#">Заказать</a>
+              </div>
+              <br>
+              <p class="nnk">Требуется несколько изделий? Поможем с расчетом!</p>
+              <p class="adres">
+                <a href="#">Москва +7(499)703-38-10</a><br>
+                <a href="#">Санкт-Петербург +7(812)309-53-69</a><br>
+              </p>
+              <p class="pochta">
+                <a href="#">spb@rsk-factory.ru</a><br>
+                <a href="#">msk@rsk-factory.ru</a><br>
+              </p>
+              <p class=svz>
+                <a href="#">заказать обратный звонок</a>
+                <a href="#">написать нам</a><br> 
+              </p>
+              <p class="nnk2">Расчет носит ознакомительный характер. Актуальная стоимость зависит от наличия заготовок и может быть иной.</p>
+
+
+          </div>
+        </div>
+          
+      </div>
+
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script>
+     
+      $(document).ready(function(){
+        $('.calc select').change(function(){
+          $edition=$('#tree_edition').val();
+          $post_ras=$('select#postras').val();
+          $colors=$('select#colors').val();
+          $dop_uslug1=$('input#dop_uslug1').val();
+          $dop_uslug2=$('input#dop_uslug2').val();
+          $price = parseInt($edition) + parseInt($post_ras)+parseInt($colors)+parseInt($dop_uslug1)+parseInt($dop_uslug2);
+          console.log($edition);
+          $('span#final_price').text($price);
+        })
+      })
+    </script>
+  </body>
+</html>
